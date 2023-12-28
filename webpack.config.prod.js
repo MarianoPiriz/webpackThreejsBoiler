@@ -15,6 +15,11 @@ module.exports = merge(common, {
       },
     ],
   },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: '[name].[contenthash].css',
+    }),
+  ],
   optimization: {
     minimize: true,
     minimizer: [
@@ -24,9 +29,9 @@ module.exports = merge(common, {
       }),
     ],
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].[contenthash].css',
-    }),
-  ],
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+  },
 });

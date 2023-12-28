@@ -1,16 +1,19 @@
 import './style.css';
-import heroImg from './heroImg1.png';
+import './renderer.js';
+import './datguiConf.js';
 
-const p = document.createElement('p');
-p.textContent = 'Hello from Webpack';
+//import heroImg from './images/';
 
-document.body.append(p);
+// const p = document.createElement('p');
+// p.textContent = 'Hello from Webpack';
 
-const element = document.createElement('div');
+// document.body.append(p);
 
-const bgImg = new Image();
-bgImg.src = heroImg;
+// const element = document.createElement('div');
 
-element.appendChild(bgImg);
+// const bgImg = new Image();
+// bgImg.src = heroImg;
 
-document.body.append(element);
+// element.appendChild(bgImg);
+
+// document.body.append(element);
