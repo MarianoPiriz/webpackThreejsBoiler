@@ -1,19 +1,16 @@
-import './style.css';
-import './renderer.js';
-import './datguiConf.js';
-
-//import heroImg from './images/';
-
-// const p = document.createElement('p');
-// p.textContent = 'Hello from Webpack';
-
-// document.body.append(p);
-
-// const element = document.createElement('div');
-
-// const bgImg = new Image();
-// bgImg.src = heroImg;
-
-// element.appendChild(bgImg);
-
-// document.body.append(element);
+import './three/certificates.js';
+import './css/style.css';
+import './css/nav.css';
+import './css/home.css';
+import './css/about.css';
+import './css/academics.css';
+import './css/work.css';
+import './css/freelance.css';
+import './css/contact.css';
+import './three/renderer.js';
+import './three/objects.js';
+import './three/model.js';
+import './animations/scrolling.js';
+import './animations/loading.animation.js';
+import './navigation.js';
+import './observer.js';
